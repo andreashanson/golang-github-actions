@@ -1,0 +1,13 @@
+name: ticker
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Ticker:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Ticker
+        run: echo "Ticker"
